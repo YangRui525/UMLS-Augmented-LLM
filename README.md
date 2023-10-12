@@ -2,22 +2,24 @@
 
 Large language models (LLMs) have brought unprecedented innovation to the healthcare field. Despite the promising application in healthcare, they face significant challenges since the content they generate might deviate from established medical facts and even exhibit potential biases. We develop an augmented LLM framework based on the Unified Medical Language System (UMLS), aiming to better serve the healthcare community. It's noteworthy that multiple resident physicians conducted blind reviews of the generated content, adn the results indicate that our framework effectively enhances the factuality, completeness, and relevance of the generated content.
 
-### Framework for Augmenting LLMs with UMLS Database
-
-
-
-
 ## Table of Contents
 
 * [Contributors](#contributors)
+* [Main Framework](#framework)
 * [Contents](#contents)
 * [Data](#data)
 * [Notebooks](#notebooks)
-* [Dependencies](#dependencies)
+* [Citation](#citation)
 
 
 ## Contributors
 Rui Yang, Edison Marrese-Taylor, Yuhe Ke, Lechao Cheng, Qingyu Chen, Irene Li
+
+## Framework for Augmenting LLMs with UMLS Database
+
+<p align="center">
+   <img src="UMLS_framework.jpg" alt="UMLS-Augmented-LLM"/>
+</p>
 
 <!-- Contents -->
 ## Contents
