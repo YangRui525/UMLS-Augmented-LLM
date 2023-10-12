@@ -40,7 +40,7 @@ We conduct evaluations using the [LiveQA dataset](https://github.com/abachaa/Liv
 ### Case One:
 
 | **Question:** Do 5 mg. Zolmitriptan tabzets contain gluten? |
-|------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|
 | **Model:** ChatGPT-3.5                                     |
 |------------------------------------------------------------|
 |I'm sorry, but as an AI language model, I don't have access to specific drug information or the ability to browse the internet.<br><br>To determine if a specific medication contains gluten, it is best to consult the medication's packaging, the manufacturer's website, or consult a healthcare professional or pharmacist who can provide accurate and up-to-date information. |
