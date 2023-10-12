@@ -42,11 +42,11 @@ We conduct evaluations using the [LiveQA dataset](https://github.com/abachaa/Liv
 | **Question:** Do 5 mg. Zolmitriptan tabzets contain gluten? |
 |---------------------------------------------------------------------------------------------|
 | **Model:** ChatGPT-3.5                                     |
-|------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|
 |I'm sorry, but as an AI language model, I don't have access to specific drug information or the ability to browse the internet.<br><br>To determine if a specific medication contains gluten, it is best to consult the medication's packaging, the manufacturer's website, or consult a healthcare professional or pharmacist who can provide accurate and up-to-date information. |
-|------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|
 | **Model:** UMLS-augmented ChatGPT-3.5</span>                      |
-|------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|
 |Yes, 5 mg Zolmitriptan tablets do not contain gluten.<br><br>Zolmitriptan is a member of the triptan class of agents with anti-migraine properties. It selectively binds to and activates serotonin (5-HT) 1B receptors expressed in intracranial arteries and 5-HT 1D receptors located on peripheral trigeminal sensory nerve terminals in the meninges and central terminals in brainstem sensory nuclei. This receptor binding results in the constriction of cranial vessels, reduction of vessel pulsation, and inhibition of nociceptive transmission, providing relief of migraine headaches.<br><br>Regarding gluten, it is important to note that gluten is a protein found in wheat, barley, and rye. It is commonly avoided by individuals with celiac disease or gluten sensitivity. However, Zolmitriptan tablets do not contain gluten, so they can be safely used by individuals who need to avoid gluten.<br><br>If you have any further questions or concerns, please let me know. |
 
 ### Case Two:
