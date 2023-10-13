@@ -16,6 +16,7 @@ Large language models (LLMs) have brought unprecedented innovation to the health
 * [Data](#data)
 * [Physician Evalution Criteria](#physician-evalution-criteria)
 * [Case Study](#case-study)
+* [Demo](#demo)
 * [Citation](#citation)
 
 <!-- Contributors -->
@@ -66,7 +67,12 @@ We conduct evaluations using the [LiveQA dataset](https://github.com/abachaa/Liv
 | A hydatidiform mole is characterized by the swelling of the chorionic villi, which are finger-like projections in the placenta. This swelling is accompanied by elevated levels of human chorionic gonadotropin (hCG), a hormone produced during pregnancy. Hydatidiform moles can be categorized as complete or partial based on their gross morphology, histopathology, and karyotype. |
 | To summarize, fertilization of an egg is necessary for the development of a molar pregnancy. If there is an error during fertilization, it can lead to the formation of a hydatidiform mole. |
 
-
+<!-- Demo -->
+## Demo
+<br> <!--  -->
+<p align="center">
+   <img src="UMLS-augmented ChatGPT-3.5 Demo.gif" alt="UMLS-Augmented-LLM" width="1200"/>
+</p>
 
 <!-- Citation -->
 ## Citation
