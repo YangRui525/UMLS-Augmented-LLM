@@ -71,7 +71,7 @@ We conduct evaluations using the [LiveQA dataset](https://github.com/abachaa/Liv
 ## Demo
 <br> <!--  -->
 <p align="center">
-   <img src="258ffbd43731d3d441a1eac34968a13f_raw (1).gif" alt="UMLS-Augmented-LLM" width="1200"/>
+   <img src="UMLS-Augmented ChatGPT-3.5 Demo.gif" alt="UMLS-Augmented-LLM" width="1200"/>
 </p>
 
 <!-- Citation -->
