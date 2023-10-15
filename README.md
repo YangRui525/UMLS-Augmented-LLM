@@ -52,13 +52,10 @@ We conduct evaluations using the [LiveQA dataset](https://github.com/abachaa/Liv
 | **Question:** Does fertilization of an egg have to take place before there can be a molar pregnancy? If so, when does it take place? |
 |--------------------------------------------------------------------------------------------------------------|
 | **Model:** ChatGPT-3.5                                                                                                        |
-|--------------------------------------------------------------------------------------------------------------|
 | No, fertilization of an egg does not have to take place before a molar pregnancy can occur. In fact, a molar pregnancy is a type of abnormal pregnancy where fertilization does occur, but the resulting embryo develops abnormally. |
 | In a molar pregnancy, instead of a normal embryo developing, there is an overgrowth of placental tissue. This occurs when there is an error during fertilization, leading to an abnormal number of chromosomes in the fertilized egg. This abnormal fertilization can happen either when an egg is fertilized by two sperm (complete molar pregnancy) or when a normal egg is fertilized by a single sperm but duplicates its own chromosomes (partial molar pregnancy). |
 | So, fertilization does take place in a molar pregnancy, but the resulting pregnancy is abnormal due to chromosomal errors.      |
-|--------------------------------------------------------------------------------------------------------------|
 | **Model:** UMLS-augmented ChatGPT-3.5                                                                                        |
-|--------------------------------------------------------------------------------------------------------------|
 | Yes, fertilization of an egg must take place before there can be a molar pregnancy. Fertilization is the process in which a spermatozoon (sperm) fuses with an ovum (egg) to form a zygote. This fusion of genetic material is necessary for the development of a pregnancy. |
 | In the case of a molar pregnancy, there is an abnormal growth of trophoblastic tissue, which is the tissue that normally surrounds and nourishes the embryo. This abnormal growth can occur when there is an error during fertilization, leading to the development of a hydatidiform mole. |
 | A hydatidiform mole is characterized by the swelling of the chorionic villi, which are finger-like projections in the placenta. This swelling is accompanied by elevated levels of human chorionic gonadotropin (hCG), a hormone produced during pregnancy. Hydatidiform moles can be categorized as complete or partial based on their gross morphology, histopathology, and karyotype. |
