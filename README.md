@@ -49,7 +49,7 @@ We conduct evaluations using the [LiveQA dataset](https://github.com/abachaa/Liv
 
 ### Case Two:
 
-| **Question:** Does fertilization of an egg have to take place before there can be a molar pregnancy? If so, when does it take place? |
+| **Question:** Does fertilization of an egg have to take place before there can be a molar pregnancy? \\ If so, when does it take place? |
 |--------------------------------------------------------------------------------------------------------------|
 | **Model:** ChatGPT-3.5                                                                                                        |
 | No, fertilization of an egg does not have to take place before a molar pregnancy can occur. In fact, a molar pregnancy is a type of abnormal pregnancy where fertilization does occur, but the resulting embryo develops abnormally. |
