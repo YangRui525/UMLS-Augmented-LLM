@@ -217,6 +217,7 @@ def get_umls_keys(query):
     return context
 
 # example
-question = "What are the references with noonan syndrome and polycystic renal disease?"
+question = "A 56 year old male patient with atrial fibrillation presents to the clinic. Given their history of heart failure, diabetes and PAD, what is their risk of stroke? Should they be placed on anticoagulation?"
 context = get_umls_keys(question)
-conversation.predict(context=context, input=question)
+prompt = PROMPT.replace("{question}", question).replace("{context}", context)
+conversation.predict(input=prompt)
