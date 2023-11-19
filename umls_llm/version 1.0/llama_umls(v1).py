@@ -261,6 +261,7 @@ def get_umls_keys(query):
       context = context[:-1]
     return context
 
+# example
 question = "A 56 year old male patient with atrial fibrillation presents to the clinic. Given their history of heart failure, diabetes and PAD, what is their risk of stroke? Should they be placed on anticoagulation?"
 context = get_umls_keys(question)
 prompt = PROMPT.replace("{question}", question).replace("{context}", context)
