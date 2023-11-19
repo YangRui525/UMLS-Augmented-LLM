@@ -28,11 +28,11 @@ model = AutoModelForCausalLM.from_pretrained(
     trust_remote_code=True,
     quantization_config=nf4_config,
     device_map="auto",
-    token="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"
+    token="huggingface_TOKEN"
 )
 
 tokenizer = AutoTokenizer.from_pretrained(checkpoint,
-                                          token="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")
+                                          token="huggingface_TOKEN")
 
 model.eval()
 
@@ -190,7 +190,7 @@ class UMLS_API:
 		except Exception as except_error:
 			print(except_error)
 
-umls_api = UMLS_API("55c92491-46ee-47b3-b06d-89b3a5ff992c")
+umls_api = UMLS_API("API_KEY")
 
 def get_umls_keys(query):
     umls_res = {}
