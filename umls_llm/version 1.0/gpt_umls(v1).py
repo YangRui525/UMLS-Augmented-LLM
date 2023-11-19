@@ -32,10 +32,6 @@ AI:
 
 conversation.prompt.template = prompt
 
-print(conversation.prompt.template)
-
-llm.predict("Hi!"), conversation.predict(input="Hi!")
-
 # direct extraction
 EXTRACTION_PROMPT = """
 
