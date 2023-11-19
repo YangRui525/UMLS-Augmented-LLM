@@ -13,9 +13,9 @@ from langchain.memory import ConversationBufferWindowMemory
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, StoppingCriteria, StoppingCriteriaList
 from torch import cuda
 
-llm = ChatOpenAI(model_name="gpt-4-1106-preview",
+llm = ChatOpenAI(model_name="MODEL",
                  temperature=0,
-                 openai_api_key="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")
+                 openai_api_key="KEY")
 
 class ExtendedConversationBufferWindowMemory(ConversationBufferWindowMemory):
     extra_variables:List[str] = []
@@ -143,7 +143,7 @@ class UMLS_API:
 		except Exception as except_error:
 			print(except_error)
 
-umls_api = UMLS_API("55c92491-46ee-47b3-b06d-89b3a5ff992c")
+umls_api = UMLS_API("API_KEY")
 
 def get_umls_keys(query):
     umls_res = {}
