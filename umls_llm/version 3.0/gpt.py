@@ -1,3 +1,5 @@
+!pip install -q transformers einops accelerate langchain bitsandbytes sentencepiece xformers
+
 from langchain import HuggingFacePipeline, PromptTemplate
 from langchain.chains import ConversationChain
 from langchain.chat_models import ChatOpenAI
