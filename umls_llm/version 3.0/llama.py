@@ -1,9 +1,6 @@
 !pip install -q transformers datasets einops accelerate langchain bitsandbytes sentencepiece xformers
 
-import re
-import json
 import torch
-import requests
 import transformers
 from typing import List, Dict, Any
 from langchain import HuggingFacePipeline, PromptTemplate
@@ -11,6 +8,7 @@ from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferWindowMemory
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, StoppingCriteria, StoppingCriteriaList
 from torch import cuda
+from umls import get_umls_keys
 
 checkpoint = "meta-llama/Llama-2-13b-chat-hf"
 
