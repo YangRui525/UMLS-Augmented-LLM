@@ -129,3 +129,15 @@ Input: {question}
 
 Output: [/INST]
 """
+
+questions = pd.read_csv("path.csv")
+questions = questions["question_column_name"].tolist() 
+
+results = []
+for i in tqdm(questions, desc="Processing Questions"):
+    context = get_umls_keys(i)
+    answer = conversation.predict(context=context, input=question)
+    results.append(answer)
+
+results = pd.DataFrame(results)
+results.to_csv("path.csv", index=False)
