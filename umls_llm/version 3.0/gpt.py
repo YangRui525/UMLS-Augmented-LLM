@@ -1,3 +1,11 @@
+from langchain import HuggingFacePipeline, PromptTemplate
+from langchain.chains import ConversationChain
+from langchain.chat_models import ChatOpenAI
+from langchain.memory import ConversationBufferWindowMemory
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, StoppingCriteria, StoppingCriteriaList
+from torch import cuda
+from umls import get_umls_keys
+
 llm = ChatOpenAI(model_name="MODEL",
                  temperature=0,
                  openai_api_key="KEY")
@@ -69,3 +77,5 @@ Input: {question}
 
 Output: [/INST]
 """
+
+
