@@ -7,6 +7,8 @@ from langchain.memory import ConversationBufferWindowMemory
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, StoppingCriteria, StoppingCriteriaList
 from torch import cuda
 from umls import get_umls_keys
+from tqdm import tqdm
+import pandas as pd
 
 llm = ChatOpenAI(model_name="MODEL",
                  temperature=0,
@@ -80,4 +82,14 @@ Input: {question}
 Output: [/INST]
 """
 
+questions = pd.read_csv("path.csv")
+questions = questions["question_column_name"].tolist() 
 
+results = []
+for i in tqdm(questions, desc="Processing Questions"):
+    context = get_umls_keys(i)
+    answer = conversation.predict(context=context, input=question)
+    results.append(answer)
+
+results = pd.DataFrame(results)
+results.to_csv("path.csv", index=False)
