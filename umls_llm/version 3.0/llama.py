@@ -1,4 +1,4 @@
-!pip install -q transformers datasets einops accelerate langchain bitsandbytes sentencepiece xformers
+!pip install -q transformers einops accelerate langchain bitsandbytes sentencepiece xformers
 
 import torch
 import transformers
