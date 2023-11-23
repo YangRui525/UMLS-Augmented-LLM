@@ -6,12 +6,6 @@ import torch
 import requests
 import transformers
 from typing import List, Dict, Any
-from langchain import HuggingFacePipeline, PromptTemplate
-from langchain.chains import ConversationChain
-from langchain.chat_models import ChatOpenAI
-from langchain.memory import ConversationBufferWindowMemory
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, StoppingCriteria, StoppingCriteriaList
-from torch import cuda
 
 class UMLS_API:
 	def __init__(self, apikey, version="current"):
