@@ -1,11 +1,6 @@
-!pip install -q datasets openai langchain transformers
-
 import re
 import json
-import torch
 import requests
-import transformers
-from typing import List, Dict, Any
 
 class UMLS_API:
 	def __init__(self, apikey, version="current"):
@@ -150,8 +145,3 @@ def get_umls_keys(query):
     if context != "":
       context = context[:-1]
     return context
-
-# example
-question = "What are the references with noonan syndrome and polycystic renal disease?"
-context = get_umls_keys(question)
-conversation.predict(context=context, input=question)
