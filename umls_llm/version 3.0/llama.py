@@ -130,8 +130,8 @@ Input: {question}
 Output: [/INST]
 """
 
-questions = pd.read_csv("path.csv")
-questions = questions["question_column_name"].tolist() 
+data = pd.read_csv("path.csv")
+questions = data["question_column_name"].tolist() 
 
 results = []
 for i in tqdm(questions, desc="Processing Questions"):
