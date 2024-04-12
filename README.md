@@ -83,7 +83,7 @@ We conduct evaluations using the [LiveQA dataset](https://github.com/abachaa/Liv
       primaryClass={cs.CL}
 }
 
-### New Version
+New Version
 
 @misc{yang2024kgrank,
       title={KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques}, 
