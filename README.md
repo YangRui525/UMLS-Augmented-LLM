@@ -66,6 +66,16 @@ We conduct evaluations using the [LiveQA dataset](https://github.com/abachaa/Liv
 <!-- Citation -->
 ## Citation
 ```bibtext
+New Version
+@misc{yang2024kgrank,
+      title={KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques}, 
+      author={Rui Yang and Haoran Liu and Edison Marrese-Taylor and Qingcheng Zeng and Yu He Ke and Wanxin Li and Lechao Cheng and Qingyu Chen and James Caverlee and Yutaka Matsuo and Irene Li},
+      year={2024},
+      eprint={2403.05881},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+|--------------------------------------------------------------------------------------------------------------|
 @misc{yang2023umlsaugmented,
       title={A UMLS-Augmented Framework for Improving Factuality in Large Language Models within Healthcare}, 
       author={Rui Yang and Edison Marrese-Taylor and Yuhe Ke and Lechao Cheng and Qingyu Chen and Irene Li},
@@ -83,14 +93,4 @@ We conduct evaluations using the [LiveQA dataset](https://github.com/abachaa/Liv
       primaryClass={cs.CL}
 }
 
-New Version
-
-@misc{yang2024kgrank,
-      title={KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques}, 
-      author={Rui Yang and Haoran Liu and Edison Marrese-Taylor and Qingcheng Zeng and Yu He Ke and Wanxin Li and Lechao Cheng and Qingyu Chen and James Caverlee and Yutaka Matsuo and Irene Li},
-      year={2024},
-      eprint={2403.05881},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
 
