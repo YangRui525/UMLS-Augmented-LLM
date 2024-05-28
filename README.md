@@ -75,7 +75,7 @@ New Version
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
-|--------------------------------------------------------------------------------------------------------------|
+--------------------------------------------------------------------------------------------------------------|
 @misc{yang2023umlsaugmented,
       title={A UMLS-Augmented Framework for Improving Factuality in Large Language Models within Healthcare}, 
       author={Rui Yang and Edison Marrese-Taylor and Yuhe Ke and Lechao Cheng and Qingyu Chen and Irene Li},
